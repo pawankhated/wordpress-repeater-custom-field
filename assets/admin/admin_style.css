@@ -1,0 +1,63 @@
+.container-fluid {
+	padding-top: 30px;
+}
+
+.select2-results-dept-0 { /* do the columns */
+  float: left;
+  width: 20%;
+}
+
+img.flag {
+  height: 10px;
+  padding-right: 5px;
+  width: 15px;
+}
+
+/* move close cross [x] from left to right on the selected value (tag) */
+#s2id_e2_2.select2-container-multi .select2-choices .select2-search-choice {
+  padding: 3px 18px 3px 5px;
+}
+#s2id_e2_2.select2-container-multi .select2-search-choice-close {
+  left: auto;
+  right: 3px;
+}
+
+
+/*======name of the service=======*/
+.name_of_service {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 9px;
+}
+
+.name_of_subservice .label {
+    width: 100%;
+}
+.name-service {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+}
+.subservice_inner_row td:first-child {
+    width: 1%;
+}
+.subservice_inner_row td:nth-child(2) {
+    width: 95%;
+}
+.subservice_inner_row td:nth-child(3) {
+    width: 4%;
+}
+.subservice_inner_row input[type="text"] {
+    width: 100%;
+}
+.table td {
+    padding: 6px 10px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+table{
+  border: 1px solid #ddd;
+}
